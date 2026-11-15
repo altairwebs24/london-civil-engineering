@@ -1,23 +1,16 @@
-import constructionSite from "@/assets/construction-site.jpg.asset.json";
-import drainageInspection from "@/assets/drainage-inspection.jpg.asset.json";
-import buildingConstruction from "@/assets/building-construction.jpg.asset.json";
-import engineeringPlans from "@/assets/engineering-plans.jpg.asset.json";
-import planningMeeting from "@/assets/planning-meeting.jpg.asset.json";
-import siteConsultation from "@/assets/site-consultation.jpg.asset.json";
-import stormwaterDrainage from "@/assets/stormwater-drainage.jpg.asset.json";
-import stormwaterPipeline from "@/assets/stormwater-pipeline.jpg.asset.json";
-import technicalDrawing from "@/assets/technical-drawing.jpg.asset.json";
+const publicMediaBase = "https://pjcuqbouvoalmynubvoa.supabase.co/storage/v1/object/public/london-group-media";
 
 export const siteMedia = {
-  constructionSite: constructionSite.url,
-  drainageInspection: drainageInspection.url,
-  buildingConstruction: buildingConstruction.url,
-  engineeringPlans: engineeringPlans.url,
-  planningMeeting: planningMeeting.url,
-  siteConsultation: siteConsultation.url,
-  stormwaterDrainage: stormwaterDrainage.url,
-  stormwaterPipeline: stormwaterPipeline.url,
-  technicalDrawing: technicalDrawing.url,
+  constructionSite: `${publicMediaBase}/construction-site.jpg`,
+  drainageInspection: `${publicMediaBase}/drainage-inspection.jpg`,
+  buildingConstruction: `${publicMediaBase}/building-construction.jpg`,
+  engineeringPlans: `${publicMediaBase}/engineering-plans.jpg`,
+  planningMeeting: `${publicMediaBase}/planning-meeting.jpg`,
+  siteConsultation: `${publicMediaBase}/site-consultation.jpg`,
+  stormwaterDrainage: `${publicMediaBase}/stormwater-drainage.jpg`,
+  stormwaterPipeline: `${publicMediaBase}/stormwater-pipeline.jpg`,
+  technicalDrawing: `${publicMediaBase}/technical-drawing.jpg`,
+  heroVideo: `${publicMediaBase}/hero-workspace.mp4`,
 };
 
 export const companyAddress = "25 Burdwan Rd, Merewent, Bluff, 4052, South Africa";

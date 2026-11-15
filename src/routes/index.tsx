@@ -4,7 +4,6 @@ import { ArrowDown, ArrowRight, DraftingCompass, HardHat, Waves } from "lucide-r
 import { Button } from "@/components/ui/button";
 import { ContactBand, SiteFooter, SiteHeader } from "@/components/site-layout";
 import { siteMedia } from "@/lib/site-media";
-import heroVideo from "@/assets/hero-workspace.mp4.asset.json";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -27,7 +26,7 @@ function HomePage() {
       <main>
         <section className="home-hero">
           <video className="hero-video" autoPlay muted loop playsInline preload="metadata" poster={siteMedia.engineeringPlans} aria-hidden="true">
-            <source src={heroVideo.url} type="video/mp4" />
+            <source src={siteMedia.heroVideo} type="video/mp4" />
           </video>
           <div className="hero-shade" />
           <div className="page-width hero-content">

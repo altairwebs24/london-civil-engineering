@@ -1,0 +1,2 @@
+- [ ] Build and verify the five-page London Group & Civil Engineering website with supplied media and contact links.
+- [ ] Add global badge hiding and initialized Vite plugins array; run route tests and inspect the preview.

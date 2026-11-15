@@ -1,3 +1,4 @@
-- [ ] Apply the reference-inspired bold typography and white, black, and orange theme.
-- [ ] Create a public media bucket, upload all site photos and video, and update their references.
-- [ ] Verify all five pages, public media loads, mobile presentation, route tests, and preview build.
+- [x] Apply the reference-inspired bold typography and white, black, and orange theme.
+- [x] Create a public media bucket, upload all site photos and video, and update their references.
+- [ ] Shift the orange accent toward yellow and add a validated WhatsApp booking request form.
+- [ ] Verify all five pages, public media loads, mobile presentation, booking flow, route tests, and preview build.

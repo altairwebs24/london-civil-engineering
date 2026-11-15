@@ -31,3 +31,4 @@ use the editor.
 
 ## Application architecture
 - Keep the shared site navigation, footer and contact elements in a reusable site-layout module, and keep page-used media URLs and contact destinations in a browser-safe site-media module, so all five public pages stay consistent.
+- The booking form validates its fields and opens a prefilled WhatsApp draft; do not store submissions because WhatsApp is the user's chosen destination.

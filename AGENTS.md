@@ -28,3 +28,6 @@ use the editor.
   own key and store it in Secrets.
 - **Secrets.** Lovable manages them. Do not put secret values in the repo.
 <!-- LOVABLE:END -->
+
+## Application architecture
+- Keep the shared site navigation, footer and contact elements in a reusable site-layout module, and keep page-used media URLs and contact destinations in a browser-safe site-media module, so all five public pages stay consistent.

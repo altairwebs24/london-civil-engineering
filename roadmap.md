@@ -1,2 +1,3 @@
-- [x] Build and verify the five-page London Group & Civil Engineering website with supplied media and contact links.
-- [x] Add global badge hiding and initialized Vite plugins array; run route tests and inspect the preview.
+- [ ] Apply the reference-inspired bold typography and white, black, and orange theme.
+- [ ] Create a public media bucket, upload all site photos and video, and update their references.
+- [ ] Verify all five pages, public media loads, mobile presentation, route tests, and preview build.
